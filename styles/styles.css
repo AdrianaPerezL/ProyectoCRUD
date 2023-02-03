@@ -1,0 +1,248 @@
+.sticky-top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+    background-color: #80ceca;
+    height: 80px;
+    margin-top: -20px;
+    box-shadow:  -21px 21px 100px #4c7a77,
+             21px -21px 100px #b4ffff
+}
+
+.navbar-brand{
+    margin-left: 5px;
+    color:#ffffff;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.btn-link{
+    font-size: 20px;
+}
+
+.fa-pen{
+    color: #80ceca;
+}
+
+.fa-trash{
+    color: #3C3C3C;
+}
+
+.w-100 {
+    width: 100px;
+    background-size: cover;
+    height: 500px;
+}
+
+.container-fluid{
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+}
+
+.nav-link {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-weight: var(--bs-nav-link-font-weight);
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    margin-right: 49px;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    padding-right: -10px;
+  }
+
+
+.modal-content{
+    background-color: #f1f3fb;
+
+}
+
+.navbar > .container, .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: initial;
+    font-family: Montserrat;
+
+  }
+
+  .modal-content {
+    background: white;
+    border: 0 none;
+    border-radius: 3px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    padding: 20px 30px;
+    box-sizing: border-box;
+    width: 80%;
+    margin: 0 10%;
+
+  }
+
+  .form-control {
+ 
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    color: #2C3E50;
+    font-size: 13px;
+  }
+
+
+.botoncito{
+  padding: 12.5px 30px;
+  border: 0;
+  border-radius: 100px;
+  background-color: #086d68;
+  color: #ffffff;
+  font-weight: Bold;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  margin-left: 100px;
+}
+
+.botoncito2{
+    padding: 12.5px 30px;
+    border: 0;
+    border-radius: 100px;
+    background-color: #086d68;
+    color: #ffffff;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.botoncito, .botoncito2:active{
+    background-color: #159e97;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+}
+
+.botoncito, .botoncito2:hover{
+    background-color: #5cc2bd;
+    box-shadow: 0 0 20px #6fc5ff50;
+    color: #3C3C3C;
+}
+
+ .card1{
+    border-style: none;
+ }
+
+ .modal-header {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--bs-modal-header-padding);
+    border-top-left-radius: var(--bs-modal-inner-border-radius);
+    border-top-right-radius: var(--bs-modal-inner-border-radius);
+  }
+
+  .fs-5 {
+    font-size: 20px;
+    font-weight: 650;
+    color: #086d68;
+    text-align: center;
+  }
+
+.form-control{
+ background-color: #eee;
+ border: none;
+ padding: 10px;
+ font-size: 14px;
+ width: 20em;
+ border-radius: 1rem;
+ color: #159e97;
+ box-shadow: 0 0.4rem #dfd9d9;
+ cursor: pointer;
+}
+
+.form-control input:focus{
+    outline-color: #159e97;
+
+}
+
+
+.nav-link:hover {
+background-color: #086d68;
+padding: 20px;
+color: #eee;
+
+}
+
+.cardd{
+    width: 190px;
+  height: 254px;
+  border-radius: 30px;
+  background: #80ceca;
+  box-shadow: 15px 15px 30px #bebebe,
+             -15px -15px 30px #ffffff;
+   margin-left: 20px;
+}
+
+.information{
+    display: flexbox;
+    justify-content:space-between;
+}
+
+.row1{
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: calc(-1 * var(--bs-gutter-y));
+        margin-right: 76px;
+        margin-left: calc(3 * var(--bs-gutter-x));
+}
+
+.card-text1{
+    margin: 30px;
+    font-family: Montserrat;
+    text-align: justify;
+}
+
+.fa-dog{
+    font-size: 40px;
+    color: #086d68;
+
+}
+
+.fa-syringe{
+    font-size: 40px;
+    color: #086d68;
+
+}
+
+.fa-heart-pulse{
+    font-size: 40px;
+    color: #086d68;
+
+}
+
+.services{
+    color: #086d68;
+    font-family: 'Raleway', sans-serif;
+text-align: center;
+font-weight: 600;
+}
+
+hr{
+    border: 20px;
+    border-color: #086d68;
+
+}
+
+
+.perrito{
+    position:fixed;
+}
+
+.rounded-circle{
+    object-fit: cover;
+}
