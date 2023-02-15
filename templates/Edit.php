@@ -38,6 +38,7 @@ $pet = $query->fetch(PDO::FETCH_OBJ);
         <input class="form-control" type="text" placeholder="Ingrese la edad"  value="<?php echo $pet->edad?>" name="inputAge" required>
     </div>
     <input type="submit" class="btn btn-primary m-2" value="Editar" required>
+    <input type="hidden" class="botoncito" value="<?php echo $pet->id?>" name="petId">
     <img class="perrito" src="/img/perritoo.png" alt="">
 </form>
 
