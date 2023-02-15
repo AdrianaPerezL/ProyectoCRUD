@@ -1,6 +1,7 @@
 <?php
 include '../model/Connection.php';
 
+$id = $_POST["petId"];
 $name = $_POST["inputName"];
 $animal = $_POST["inputAnimal"];
 $breed = $_POST["inputBreed"]; 
